@@ -1,0 +1,200 @@
+/*Start nav*/
+.navbar .navbar-nav a:after {
+    left: auto;
+    right: 0;
+}
+/*End nav*/
+
+/*Start Home*/
+.projects .head h2:after {
+    left: auto;
+}
+
+.latest_blogs .heading h2:after {
+    left: auto;
+}
+
+
+.latest_blogs .single_latest_blog .body_img .date {
+    left: auto;
+    right: 0
+}
+
+.latest_blogs .single_latest_blog .body .category {
+    right: 0;
+    left: auto
+}
+
+.latest_blogs .single_latest_blog .body .category:after {
+    left: auto;
+    right: 0;
+    border-width: 8px 8px 8px 8px;
+    border-color: transparent transparent #806746 #806746;
+}
+
+.latest_blogs .single_latest_blog .body_img i {
+    right: auto;
+    left: 0;
+    opacity: 0;
+}
+
+.latest_blogs .single_latest_blog:hover .body_img i {
+    right: auto
+}
+
+.clients .heading h2 {
+    text-align: right;
+}
+
+.clients .heading h2:after {
+    left: auto;
+    right: 0
+}
+
+footer h4:after {
+    left: auto;
+    right: 0;
+}
+
+@media (max-width: 995px){
+    .projects .head h2:after {
+        display: none
+    }
+}
+
+@media (max-width: 995px){
+    .latest_blogs .heading h2:after {
+        left: 45%
+    }
+}
+
+@media(max-width: 995px) {
+    footer h4 {
+        text-align: right
+    }
+    
+    footer .footer_links li,
+    footer .footer_contacts li{
+        text-align: right
+    }
+    
+    footer .hotline h4 {
+        text-align: right
+    }
+}
+/*End Home*/
+
+/*Start blogs*/
+.blogs {
+    direction: ltr
+} 
+/*End blogs*/
+
+/*Start maalem-blog-details*/
+.wrape_blog_details .details_blog .recent h3:after {
+    left: auto;
+    right: 0;
+}
+
+.wrape_blog_details .details_blog .info_blog .body_details h3:after {
+    left: auto;
+    right: 0;
+}
+
+.wrape_blog_details .media-carousel .carousel-control.right,
+.wrape_blog_details .media-carousel .carousel-control.left{
+    transform: rotate(180deg)
+}
+/*End maalem-blog-details*/
+
+/*Start maalem-Contact*/
+.wrape_contact .forming .input-group input:first-of-type,
+.wrape_contact .forming .input-group input:nth-of-type(2) {
+    margin-right: 0;
+    margin-left: 10px;
+}
+/*End maalem-Contact*/
+
+/*Start maalem-projects-details*/
+.wrape_detail_projects .pro_feats_info h3:after {
+    left: auto;
+    right: 0;
+}
+
+@media(max-width: 995px) {
+    .wrape_detail_projects .pro_feats_info h3:after {
+        left: auto;
+        right: 45%;
+    }
+}
+
+.wrape_detail_projects .pro_feats .info h3:after {
+    left: auto;
+    right: 0;
+}
+
+@media(max-width: 995px) {
+    .wrape_detail_projects .pro_feats .info h3:after {
+        right: 45%;
+    }
+}
+
+.wrape_detail_projects .pro_feats .info ul li .heading:after {
+    right: auto;
+    left: 0;
+    border-width: 11px;
+    border-color: transparent transparent #fff #fff;
+    transform: rotate(-270deg)
+}
+
+.wrape_detail_projects .pro_feats form h4:after {
+    left: auto;
+    right: 0
+}
+
+@media(max-width: 995px) {
+    .wrape_detail_projects .pro_feats form h4:after {
+        right: 45%
+    }
+}
+/*End maalem-projects-details*/
+
+/*Start maalem-projects*/
+.wrape_projects .pros .single_pro .body li a {
+    padding-right: 10px
+}
+
+.wrape_projects .pros .single_pro .body li a i {
+    transform: rotate(180deg)
+}
+
+.wrape_projects .pros .single_pro .shadow li:first-of-type {
+    width: 100%
+}
+
+.wrape_projects .pros .single_pro .shadow li:first-of-type:after {
+    display: none
+}
+
+.wrape_projects .pros .single_pro .shadow li:first-of-type .heading,
+.wrape_projects .pros .single_pro .shadow li:last-of-type .heading,
+.wrape_projects .pros .single_pro .body li .heading {
+    float: right;
+    margin-left: 10px
+}
+/*End maalem-projects*/
+
+.contact_banner {
+    overflow: hidden
+}
+
+.contact_banner a {
+    float: left
+}
+
+@media(max-width: 995px) {
+    .contact_banner a {
+        text-align: center;
+        float: none
+    }
+}
